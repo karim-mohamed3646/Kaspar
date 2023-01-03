@@ -743,6 +743,12 @@ header .form i {
     position: relative;
     align-items: center;
 }
+.subscribe .container p {
+    text-align: start;
+    color: white;
+    line-height: 2;
+    margin-left: 15px;
+}
 @media (max-width: 992px) {
     .subscribe .container {
         flex-direction:column ;
@@ -783,12 +789,6 @@ transform: translateY(-50%);
 left: 18px;
 font-size: 17px;
 color: var(--main-color);
-}
-.subscribe .container p {
-    text-align: start;
-    color: white;
-    line-height: 2;
-    margin-left: 15px;
 }
 /* End subscribe */
 /* STart contact */
